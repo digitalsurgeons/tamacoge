@@ -6,7 +6,12 @@
   "scripts": {
     "test": "standard && node test.js"
   },
-  "keywords": ["tag", "manager", "code", "generator"],
+  "keywords": [
+    "tag",
+    "manager",
+    "code",
+    "generator"
+  ],
   "author": "Jake Burden <jake@burden.blog>",
   "license": "MIT",
   "devDependencies": {
@@ -14,5 +19,7 @@
     "standard": "^12.0.1",
     "tape": "^4.9.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "dedent": "^0.7.0"
+  }
 }
